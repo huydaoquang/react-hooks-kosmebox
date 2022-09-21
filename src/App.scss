@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.App {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: auto;
+  grid-template-rows: 110px 45px auto auto auto;
+  overflow-x: hidden;
+  .banner {
+    img {
+      margin-top: 10px;
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 739px) {
+  .App {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
+  }
+}
