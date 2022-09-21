@@ -1,13 +1,13 @@
 footer {
-  height: 420px;
+  height: 500px;
   background: #e5e5e5;
-  padding: 20px 120px 80px;
+  padding: 30px 120px 80px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1.5fr;
   grid-template-rows: 1fr;
   border-top: 3px solid #ed145b;
   h3 {
-    padding: 0 0 20px;
+    padding: 0 0 25px;
   }
   a {
     display: block;
@@ -22,11 +22,12 @@ footer {
     font-weight: 700;
   }
   img {
+    margin-top: 10px;
     width: 250px;
   }
 }
 .bottom-footer {
-  height: 50px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;

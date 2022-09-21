@@ -19,9 +19,9 @@ const Nav = () => {
           </div>
           <ul className="menu">
             <li className="menu_item">
-              <a href="" className="menu_link">
+              <Link to="" className="menu_link">
                 THƯƠNG HIỆU
-              </a>
+              </Link>
               <div className="menu_child">
                 <div className="menu_child-item logo">
                   <h4>Các Thương Hiệu Tiêu Biểu</h4>
@@ -1311,9 +1311,9 @@ const Nav = () => {
               </div>
             </li>
             <li className="menu_item col4">
-              <a href="" className="menu_link">
+              <Link to="" className="menu_link">
                 Trang Điểm
-              </a>
+              </Link>
               <div className="menu_child col4">
                 <div className="menu_child-item">
                   <h4>Trang Điểm Mắt - Eye Makeup</h4>
@@ -1508,9 +1508,9 @@ const Nav = () => {
               </div>
             </li>
             <li className="menu_item col4">
-              <a href="" className="menu_link">
+              <Link to="" className="menu_link">
                 Dưỡng Da
-              </a>
+              </Link>
               <div className="menu_child col4">
                 <div className="menu_child-item">
                   <h4>Các Vấn Đề Của Da</h4>
@@ -1863,24 +1863,24 @@ const Nav = () => {
               </div>
             </li>
             <li className="menu_item">
-              <a href="" className="menu_link">
+              <Link to="" className="menu_link">
                 Bộ Sản Phẩm
-              </a>
+              </Link>
             </li>
             <li className="menu_item">
-              <a href="" className="menu_link">
+              <Link to="" className="menu_link">
                 Nước Hoa
-              </a>
+              </Link>
             </li>
             <li className="menu_item">
-              <a href="" className="menu_link">
+              <Link to="" className="menu_link">
                 Dùng Thử
-              </a>
+              </Link>
             </li>
             <li className="menu_item">
-              <a href="" className="menu_link">
+              <Link to="" className="menu_link">
                 HỘP QUÀ KOS
-              </a>
+              </Link>
             </li>
             <li className="menu_item">
               <AiFillLike
@@ -1893,14 +1893,14 @@ const Nav = () => {
                   fontSize: "25px",
                 }}
               ></AiFillLike>
-              <a href="" className="menu_link right">
+              <Link to="" className="menu_link right">
                 Top Review
-              </a>
+              </Link>
             </li>
             <li className="menu_item dropdown">
-              <a href="" className="menu_link right">
+              <Link to="" className="menu_link right">
                 Hướng Dẫn
-              </a>
+              </Link>
               <ul className="menu-child-2item">
                 <li>
                   <Link to={`/Link`}>Hướng Dẫn Mua Hàng</Link>
