@@ -3,7 +3,7 @@ import { FaHeart, FaDollarSign } from "react-icons/fa";
 import { HiUser, HiUserAdd, HiSearch } from "react-icons/hi";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { BsBoxArrowInRight } from "react-icons/bs";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <header>
@@ -13,7 +13,7 @@ const Header = () => {
             <FaHeart
               style={{ width: "15px", height: "15px", margin: "0 5px -3px 0" }}
             />
-            <>Về kosmbox</>
+            <Link to={`/`}>Về kosmebox</Link>
           </li>
           <li>
             <HiUser
@@ -41,7 +41,7 @@ const Header = () => {
             <FaDollarSign
               style={{ width: "18px", height: "18px", marginBottom: "-5px" }}
             />
-            <a href="">Thanh toán</a>
+            <Link to={`/`}>Thanh toán</Link>
           </li>
         </ul>
       </div>

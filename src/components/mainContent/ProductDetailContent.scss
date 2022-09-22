@@ -1,0 +1,172 @@
+.row-product-detail {
+  background: #edebeb;
+  content: "";
+  clear: both;
+  .col {
+    width: 1300px;
+    display: grid;
+    grid-template-columns: 35% 75%;
+    grid-gap: 30px;
+    margin: 10px auto 20px;
+    padding: 10px 20px 40px 10px;
+    background: #fff;
+
+    .col-left {
+      display: flex;
+      gap: 10px;
+      .img-left {
+        width: 90%;
+        img {
+          width: 100%;
+          border: 0.5px solid #ddd;
+          margin-right: 10px;
+        }
+      }
+      .img-right {
+        width: 10%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        img {
+          width: 100%;
+          border: 0.5px dotted #ddd;
+        }
+      }
+    }
+    .col-right {
+      h3 {
+        line-height: 40px;
+      }
+      .container-wrapper {
+        display: grid;
+        grid-template-columns: 55% 30%;
+        .wrapper-left {
+          display: flex;
+          flex-direction: column;
+          column-gap: 15px;
+          .wrapper-item {
+            display: flex;
+            column-gap: 15px;
+            .icon {
+              margin-top: 2.5px;
+            }
+            span {
+              color: red;
+            }
+          }
+          .wrapper-money {
+            display: flex;
+            align-items: flex-end;
+            column-gap: 20px;
+            .line-through {
+              text-decoration: line-through;
+            }
+          }
+          .wrapper-btn {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: 50px;
+            padding: 20px 10px 20px 0;
+            button {
+              font-size: 20px;
+              border: 1px solid #ddd;
+              background: #fff;
+            }
+            .btn-item {
+              font-size: 30px;
+            }
+          }
+          .wrapper-btn-submit {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: 50px;
+            padding-right: 10px;
+            grid-gap: 10px;
+            button {
+              border: none;
+              font-size: 20px;
+              color: #fff;
+            }
+            .btn-left {
+              background: #1f601f;
+            }
+            .btn-right {
+              background: #ee4d2d;
+            }
+          }
+          form {
+            padding: 10px 10px 0 0;
+            input {
+              padding: 10px 10px;
+              width: 80%;
+              outline: none;
+            }
+            button {
+              width: 20%;
+              padding: 11px 20px;
+              background: #fff;
+              border: 1px solid #000;
+              border-left: none;
+              cursor: pointer;
+            }
+          }
+        }
+        .wrapper-right {
+          margin-right: 10px;
+          .wrapper-right-top {
+            display: flex;
+            justify-content: flex-end;
+            column-gap: 10px;
+            padding-right: 30px;
+            .icon {
+              width: 40px;
+              height: 40px;
+              padding: 10px;
+              background: #20e326;
+              color: #fff;
+            }
+            .icon.fb {
+              background: #133fa7;
+            }
+            .icon.pinterest {
+              background: #ee4d2d;
+            }
+            .icon.instagram {
+              background: #e38b20;
+            }
+          }
+          .wrapper-right-bottom {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            h4 {
+              text-align: center;
+              padding-bottom: 20px;
+            }
+            ul {
+              li {
+                display: grid;
+                grid-template-columns: auto 90%;
+                grid-gap: 10px;
+                // display: flex;
+                // column-gap: 10px;
+                line-height: 28px;
+                .icon {
+                  margin-top: 5px;
+                  color: #20e326;
+                  width: 18px;
+                }
+                a {
+                  font-size: 14px;
+                  font-weight: 750;
+                  opacity: 80%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -5,12 +5,10 @@ import {
   AiOutlineGift,
   AiOutlineLike,
   AiTwotoneLike,
-  AiFillCaretRight,
   AiFillFire,
   AiOutlineStar,
 } from "react-icons/ai";
 import { BsCircleFill } from "react-icons/bs";
-// import { FaHeart, FaDollarSign } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const HomeContent = () => {
   return (
@@ -126,7 +124,9 @@ const HomeContent = () => {
                   </div>
                 </div>
               </Link>
-              <Link to={`/Product-Detail`}>
+              <Link
+                to={`/sua-rua-mat-soonsiki-clean-sebum-clay-pack-to-form-120ml`}
+              >
                 <div className="card">
                   <img src="./images/05.jpg" alt="" />
                   <div className="card-content">
@@ -140,8 +140,8 @@ const HomeContent = () => {
                         fontWeight: "700",
                       }}
                     >
-                      <span className="line-through">300,000 đ</span>
-                      219,000 đ
+                      <span className="line-through">299,000 đ</span>
+                      69,000 đ
                     </span>
                     <button>Mua hàng</button>
                   </div>

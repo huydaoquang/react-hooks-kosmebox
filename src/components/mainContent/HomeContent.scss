@@ -56,7 +56,7 @@ a {
         a {
           width: 120px;
           height: 40px;
-          background-image: linear-gradient(to right, #00ffaa, #0059ff);
+          background-image: linear-gradient(180deg, #ed145b, #bb0fca);
           text-transform: capitalize;
           color: #fff;
           font-size: 18px;
@@ -65,7 +65,10 @@ a {
           transition: 0.5s ease;
         }
         a:hover {
-          background-image: linear-gradient(45deg, red, yellow);
+          background-image: linear-gradient(180deg, red, yellow);
+          box-shadow: 18px 0 15px 0 rgba(0, 0, 0, 0.3),
+            -15px 0 15px 0 rgba(0, 0, 0, 0.2);
+          font-style: normal;
         }
       }
     }

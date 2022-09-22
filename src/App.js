@@ -1,13 +1,13 @@
-import Header from "./views/header/Header";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.scss";
-import Nav from "./views/nav/Nav";
-import Footer from "./views/footer/Footer";
-import HomeContent from "./views/mainContent/HomeContent";
-import LoginContent from "./views/mainContent/LoginContent";
-import RegisterContent from "./views/mainContent/RegisterContent";
-import ProductDetailContent from "./views/mainContent/ProductDetailContent";
-
+import Header from "./components/header/Header";
+import Nav from "./components/nav/Nav";
+import Footer from "./components/footer/Footer";
+import HomeContent from "./components/mainContent/HomeContent";
+import LoginContent from "./components/mainContent/LoginContent";
+import RegisterContent from "./components/mainContent/RegisterContent";
+import ProductDetailContent from "./components/mainContent/ProductDetailContent";
+import LinkContent from "./components/mainContent/LinkContent";
 function App() {
   return (
     <Router>
@@ -24,9 +24,12 @@ function App() {
           <Route path="/Login">
             <LoginContent></LoginContent>
           </Route>
-          {/* <Route path="/Mat-na-innisfree-capsule-recipe-pack-10ml">
+          <Route path="/Link">
+            <LinkContent></LinkContent>
+          </Route>
+          <Route path="/sua-rua-mat-soonsiki-clean-sebum-clay-pack-to-form-120ml">
             <ProductDetailContent></ProductDetailContent>
-          </Route> */}
+          </Route>
         </Switch>
         <Footer></Footer>
       </div>
