@@ -98,13 +98,13 @@ const HomeContent = () => {
                         fontWeight: "700",
                       }}
                     >
-                      60,000 đ
+                      <span className="line-through">60,000 đ</span> 36,000 đ
                     </span>
                     <button>Mua hàng</button>
                   </div>
                 </div>
               </Link>
-              <Link to={`/Product-Detail`}>
+              <Link to={`/Sn-sale-che-khuyet-diem`}>
                 <div className="card">
                   <img src="./images/04.jpg" alt="" />
                   <div className="card-content">
@@ -118,7 +118,8 @@ const HomeContent = () => {
                         fontWeight: "700",
                       }}
                     >
-                      149,000 đ
+                      <span className="line-through">149,000 đ</span>
+                      44,700 đ
                     </span>
                     <button>Mua hàng</button>
                   </div>
@@ -147,7 +148,9 @@ const HomeContent = () => {
                   </div>
                 </div>
               </Link>
-              <Link to={`/Product-Detail`}>
+              <Link
+                to={`/che-khuyet-diem-moi-mat-va-mat-the-face-shop-concealer-dual-veil-trolls-8-1g`}
+              >
                 <div className="card">
                   <img src="./images/06.jpg" alt="" />
                   <div className="card-content">
@@ -161,13 +164,14 @@ const HomeContent = () => {
                         fontWeight: "700",
                       }}
                     >
-                      216,000 đ
+                      <span className="line-through">216,000 đ</span>
+                      193,000 đ
                     </span>
                     <button>Mua hàng</button>
                   </div>
                 </div>
               </Link>
-              <Link to={`/Product-Detail`}>
+              <Link to={`/co-to-mau-may-etude-house-color-my-brows-cara`}>
                 <div className="card">
                   <img src="./images/07.jpg" alt="" />
                   <div className="card-content">
@@ -181,7 +185,8 @@ const HomeContent = () => {
                         fontWeight: "700",
                       }}
                     >
-                      285,000 đ
+                      <span className="line-through">285,000 đ</span>
+                      142,500 đ
                     </span>
                     <button>Mua hàng</button>
                   </div>

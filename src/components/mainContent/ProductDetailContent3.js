@@ -3,22 +3,25 @@ import { FaFacebookF } from "react-icons/fa";
 import { AiOutlineStar, AiOutlineCheck, AiOutlineRight } from "react-icons/ai";
 import { BsPinterest, BsInstagram } from "react-icons/bs";
 import "./ProductDetailContent.scss";
-const ProductDetailContent = () => {
+const ProductDetailContent3 = () => {
   return (
     <>
       <div className="row-product-detail-top">
         <div className="col">
           <div className="col-left">
             <div className="img-left">
-              <img src="./images/05.jpg" alt="" />
+              <img src="./images/04.jpg" alt="" />
             </div>
             <div className="img-right">
-              <img src="./images/05.jpg" alt="" />
-              <img src="./images/9.jpg" alt="" />
+              <img src="./images/04.jpg" alt="" />
+              <img src="./images/30.jpg" alt="" />
+              <img src="./images/31.jpg" alt="" />
             </div>
           </div>
           <div className="col-right">
-            <h3>Sữa Rửa Mặt Soonsiki Clean Sebum Clay Pack To Form 120ml</h3>
+            <h3>
+              Che Khuyết Điểm Innisfree Mineral Stick Concealer 2g [HSD 12/2022]
+            </h3>
             <div className="container-wrapper">
               <div className="wrapper-left">
                 <div className="wrapper-item">
@@ -35,8 +38,8 @@ const ProductDetailContent = () => {
                   </span>
                 </div>
                 <div className="wrapper-money">
-                  <h3 className="line-through">299,000 đ</h3>
-                  <h1 style={{ color: "red" }}>69,000 đ</h1>
+                  <h3 className="line-through">149,000 đ</h3>
+                  <h1 style={{ color: "red" }}>44,700 đ</h1>
                 </div>
                 <div className="wrapper-btn">
                   <button className="btn-item">-</button>
@@ -106,11 +109,15 @@ const ProductDetailContent = () => {
               <h3>THÔNG SỐ SẢN PHẨM</h3>
               <div className="wrapper">
                 <span>Mã sản phẩm:</span>
-                <span> SOO-SRM-CB-CPTF</span>
+                <span> INCC03MSC</span>
               </div>
               <div className="wrapper">
                 <span>Lượt xem:</span>
-                <span> 1960</span>
+                <span> 73175</span>
+              </div>
+              <div className="wrapper">
+                <span>Nhà sản xuất:</span>
+                <span> Mỹ Phẩm Innisfree</span>
               </div>
               <div className="wrapper">
                 <span>Tình trạng:</span>
@@ -158,33 +165,24 @@ const ProductDetailContent = () => {
               <button>Tư Vấn Mua Hàng</button>
             </div>
             <div className="content">
-              <h3>Sữa Rửa Mặt Soonsiki Clean Sebum Clay Pack To Form 120ml</h3>
-              <span>Thương hiệu: Soonsiki</span>
+              <h3>Mặt Nạ Innisfree Capsule Recipe Pack 10ml</h3>
               <span>Xuất xứ: Hàn Quốc</span>
-              <span>Dung tích: 120ml</span>
-              <span>HSD: 11 Tháng kể từ ngày 13.09.2021</span>
+              <span>Sử dụng: 2-3 lần</span>
               <h3>Thông Tin Chi Tiết:</h3>
               <p>
-                SOONSIKI Clean Sebum Clay Pack To Form là một loại sữa rửa mặt
-                làm sạch 2 trong 1 cũng có thể được sử dụng như một loại mặt nạ.
-                Công thức đặc của nó không chỉ giúp loại bỏ tế bào da chết già
-                cỗi, mụn đầu trắng và mụn đầu đen mà còn làm cho làn da trở nên
-                tươi sáng hơn.
+                Che khuyết điểm từ lâu đã là món không thể thiếu trong giỏ xách
+                của phái đẹp, khi bạn có vấn đề về da, kem che khuyết điểm chính
+                là cứu cánh để bạn có một diện mạo thật hoàn hảo nhờ tác dụng
+                hiệu chỉnh màu da và tạo độ cân bằng cho khuôn mặt bạn.
               </p>
               <div className="img-main">
-                <img src="./images/9.jpg" alt="" />
+                <img src="./images/04.jpg" alt="" />
               </div>
               <h3>Hướng Dẫn Sử Dụng:</h3>
               <p>
-                Khi sử dụng để sử dụng sữa rửa mặt: Lấy một lượng nhỏ bằng đồng
-                xu của sản phẩm trên bàn tay của bạn và tạo bọt với nước.
-                Massage nhẹ nhàng và kỹ lưỡng khắp mặt, và rửa sạch bằng nước
-                ấm.
-              </p>
-              <p>
-                Khi sử dụng làm mặt nạ: Bóp một lượng vừa đủ và nhẹ nhàng thoa
-                lên vùng da khô, tránh vùng mắt. Để trong 10-15 phút và rửa sạch
-                bằng chuyển động mát xa trong nước ấm.
+                Sau bước dùng kem lót, mở nắp bút và vẽ những đường thẳng quanh
+                vùng da cần che khuyết điểm, sau đó dùng ngón tay (hoặc cọ/mút)
+                tán đều kem cho đến khi vùng kem hoà vào cùng màu da.
               </p>
             </div>
             <h4>ĐÁNH GIÁ - BÌNH LUẬN</h4>
@@ -628,4 +626,4 @@ const ProductDetailContent = () => {
     </>
   );
 };
-export default ProductDetailContent;
+export default ProductDetailContent3;

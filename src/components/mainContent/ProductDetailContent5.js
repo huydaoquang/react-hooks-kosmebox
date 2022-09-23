@@ -3,22 +3,23 @@ import { FaFacebookF } from "react-icons/fa";
 import { AiOutlineStar, AiOutlineCheck, AiOutlineRight } from "react-icons/ai";
 import { BsPinterest, BsInstagram } from "react-icons/bs";
 import "./ProductDetailContent.scss";
-const ProductDetailContent = () => {
+const ProductDetailContent5 = () => {
   return (
     <>
       <div className="row-product-detail-top">
         <div className="col">
           <div className="col-left">
             <div className="img-left">
-              <img src="./images/05.jpg" alt="" />
+              <img src="./images/07.jpg" alt="" />
             </div>
             <div className="img-right">
-              <img src="./images/05.jpg" alt="" />
-              <img src="./images/9.jpg" alt="" />
+              <img src="./images/07.jpg" alt="" />
             </div>
           </div>
           <div className="col-right">
-            <h3>Sữa Rửa Mặt Soonsiki Clean Sebum Clay Pack To Form 120ml</h3>
+            <h3>
+              Cọ Tô Màu Mày Etude House Color My Brows Cara 4.5g [HSD 6/2022]
+            </h3>
             <div className="container-wrapper">
               <div className="wrapper-left">
                 <div className="wrapper-item">
@@ -35,8 +36,8 @@ const ProductDetailContent = () => {
                   </span>
                 </div>
                 <div className="wrapper-money">
-                  <h3 className="line-through">299,000 đ</h3>
-                  <h1 style={{ color: "red" }}>69,000 đ</h1>
+                  <h3 className="line-through">285,000 đ</h3>
+                  <h1 style={{ color: "red" }}>142,500 đ</h1>
                 </div>
                 <div className="wrapper-btn">
                   <button className="btn-item">-</button>
@@ -106,11 +107,15 @@ const ProductDetailContent = () => {
               <h3>THÔNG SỐ SẢN PHẨM</h3>
               <div className="wrapper">
                 <span>Mã sản phẩm:</span>
-                <span> SOO-SRM-CB-CPTF</span>
+                <span> EHCC02CMBC</span>
               </div>
               <div className="wrapper">
                 <span>Lượt xem:</span>
-                <span> 1960</span>
+                <span> 76061</span>
+              </div>
+              <div className="wrapper">
+                <span>Nhà sản xuất:</span>
+                <span> Mỹ Phẩm Etude House</span>
               </div>
               <div className="wrapper">
                 <span>Tình trạng:</span>
@@ -158,33 +163,27 @@ const ProductDetailContent = () => {
               <button>Tư Vấn Mua Hàng</button>
             </div>
             <div className="content">
-              <h3>Sữa Rửa Mặt Soonsiki Clean Sebum Clay Pack To Form 120ml</h3>
-              <span>Thương hiệu: Soonsiki</span>
+              <h3>Mặt Nạ Innisfree Capsule Recipe Pack 10ml</h3>
               <span>Xuất xứ: Hàn Quốc</span>
-              <span>Dung tích: 120ml</span>
-              <span>HSD: 11 Tháng kể từ ngày 13.09.2021</span>
+              <span>Sử dụng: 2-3 lần</span>
               <h3>Thông Tin Chi Tiết:</h3>
               <p>
-                SOONSIKI Clean Sebum Clay Pack To Form là một loại sữa rửa mặt
-                làm sạch 2 trong 1 cũng có thể được sử dụng như một loại mặt nạ.
-                Công thức đặc của nó không chỉ giúp loại bỏ tế bào da chết già
-                cỗi, mụn đầu trắng và mụn đầu đen mà còn làm cho làn da trở nên
-                tươi sáng hơn.
+                Mascara chải chân mày ETUDE HOUSE Color My Brows sẽ giúp đôi mày
+                ngài của bạn trông dày dặn và sắc sảo một cách tự nhiên với các
+                sợi lông mày nằm cố định và trật tự như ý. Tông nâu sành điệu và
+                thời trang của ETUDE HOUSE Color My Brows chắc chắn sẽ là lựa
+                chọn hoàn hảo cho các bạn gái trẻ trung hợp thời trang.
               </p>
               <div className="img-main">
-                <img src="./images/9.jpg" alt="" />
+                <img src="./images/06.jpg" alt="" />
               </div>
               <h3>Hướng Dẫn Sử Dụng:</h3>
               <p>
-                Khi sử dụng để sử dụng sữa rửa mặt: Lấy một lượng nhỏ bằng đồng
-                xu của sản phẩm trên bàn tay của bạn và tạo bọt với nước.
-                Massage nhẹ nhàng và kỹ lưỡng khắp mặt, và rửa sạch bằng nước
-                ấm.
-              </p>
-              <p>
-                Khi sử dụng làm mặt nạ: Bóp một lượng vừa đủ và nhẹ nhàng thoa
-                lên vùng da khô, tránh vùng mắt. Để trong 10-15 phút và rửa sạch
-                bằng chuyển động mát xa trong nước ấm.
+                Dùng chì kẻ dọc theo chiều mọc của lông mày theo hình dạng mong
+                muốn. Sau đó lấy cọ ra khỏi chai và dùng khăn giấy lau bớt gel
+                dư trên cọ. Chải nhẹ cọ dọc theo chiều mọc của lông mày. Dùng cọ
+                chải lông mày chải lại để tách rời những sợi lông mày bị bết vào
+                nhau, giúp lông mày trông tự nhiên hơn.
               </p>
             </div>
             <h4>ĐÁNH GIÁ - BÌNH LUẬN</h4>
@@ -628,4 +627,4 @@ const ProductDetailContent = () => {
     </>
   );
 };
-export default ProductDetailContent;
+export default ProductDetailContent5;
