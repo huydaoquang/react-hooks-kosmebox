@@ -12,6 +12,7 @@ import ProductDetailContent3 from "./components/mainContent/ProductDetailContent
 import ProductDetailContent4 from "./components/mainContent/ProductDetailContent4";
 import ProductDetailContent5 from "./components/mainContent/ProductDetailContent5";
 import LinkContent from "./components/mainContent/LinkContent";
+import YoutubeSearch from "./components/mainContent/YoutubeSearch";
 function App() {
   return (
     <Router>
@@ -21,33 +22,44 @@ function App() {
         <Switch>
           <Route exact path="/">
             <HomeContent></HomeContent>
+            <Footer></Footer>
           </Route>
           <Route path="/Register">
             <RegisterContent></RegisterContent>
+            <Footer></Footer>
           </Route>
           <Route path="/Login">
             <LoginContent></LoginContent>
+            <Footer></Footer>
           </Route>
           <Route path="/Link">
             <LinkContent></LinkContent>
+            <Footer></Footer>
           </Route>
           <Route path="/Mat-na-innisfree-capsule-recipe-pack-10ml">
             <ProductDetailContent2></ProductDetailContent2>
+            <Footer></Footer>
           </Route>
           <Route path="/Sn-sale-che-khuyet-diem">
             <ProductDetailContent3></ProductDetailContent3>
+            <Footer></Footer>
           </Route>
           <Route path="/sua-rua-mat-soonsiki-clean-sebum-clay-pack-to-form-120ml">
             <ProductDetailContent></ProductDetailContent>
+            <Footer></Footer>
           </Route>
           <Route path="/che-khuyet-diem-moi-mat-va-mat-the-face-shop-concealer-dual-veil-trolls-8-1g">
             <ProductDetailContent4></ProductDetailContent4>
+            <Footer></Footer>
           </Route>
           <Route path="/co-to-mau-may-etude-house-color-my-brows-cara">
             <ProductDetailContent5></ProductDetailContent5>
+            <Footer></Footer>
+          </Route>
+          <Route path="/YoutubeSearch">
+            <YoutubeSearch></YoutubeSearch>
           </Route>
         </Switch>
-        <Footer></Footer>
       </div>
     </Router>
   );

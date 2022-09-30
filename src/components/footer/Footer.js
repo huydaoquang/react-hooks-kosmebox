@@ -1,4 +1,6 @@
 import "./Footer.scss";
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <>
@@ -7,25 +9,25 @@ const Footer = () => {
           <h3>THÔNG TIN CHUNG</h3>
           <ul>
             <li>
-              <a href="#">Về chúng tôi</a>
+              <Link>Về chúng tôi</Link>
             </li>
             <li>
-              <a href="#">Chính Sách Riêng Tư</a>
+              <Link>Chính Sách Riêng Tư</Link>
             </li>
             <li>
-              <a href="#">Câu hỏi thường gặp</a>
+              <Link>Câu hỏi thường gặp</Link>
             </li>
             <li>
-              <a href="#">Chính Sách bảo mật thông tin</a>
+              <Link>Chính Sách bảo mật thông tin</Link>
             </li>
             <li>
-              <a href="#">Chính sách bảo hành, đổi trả</a>
+              <Link>Chính sách bảo hành, đổi trả</Link>
             </li>
             <li>
-              <a href="#">Chính sách thanh toán</a>
+              <Link>Chính sách thanh toán</Link>
             </li>
             <li>
-              <a href="#">Chính Sách Giao, Nhận Hàng và Kiểm Hàng</a>
+              <Link>Chính Sách Giao, Nhận Hàng và Kiểm Hàng</Link>
             </li>
           </ul>
           <div>
@@ -36,7 +38,7 @@ const Footer = () => {
           <h3>CHĂM SÓC KHÁCH HÀNG</h3>
           <ul>
             <li>
-              <a href="#">Liên hệ</a>
+              <Link>Liên hệ</Link>
             </li>
           </ul>
         </div>
@@ -44,13 +46,13 @@ const Footer = () => {
           <h3>CÁC THÔNG TIN KHÁC</h3>
           <ul>
             <li>
-              <a href="#">Thương hiệu</a>
+              <Link>Thương hiệu</Link>
             </li>
             <li>
-              <a href="#">Khuyến mãi</a>
+              <Link>Khuyến mãi</Link>
             </li>
             <li>
-              <a href="#">Bí Quyết Làm Đẹp</a>
+              <Link>Bí Quyết Làm Đẹp</Link>
             </li>
           </ul>
         </div>

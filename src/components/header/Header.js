@@ -50,17 +50,20 @@ const Header = () => {
           <img src="./images/logo.jpg" alt="" />
         </div>
         <input type="text" placeholder="Tìm kiếm..."></input>
-        <div className="search">
-          <HiSearch
-            style={{
-              width: "30px",
-              height: "30px",
-              margin: "40px 0 0 -68px",
-              color: "#ed145b",
-              cursor: "pointer",
-            }}
-          />
-        </div>
+        <Link to={`/YoutubeSearch`}>
+          <div className="search">
+            <HiSearch
+              style={{
+                width: "30px",
+                height: "30px",
+                margin: "40px 0 0 -68px",
+                color: "#ed145b",
+                cursor: "pointer",
+              }}
+            />
+          </div>
+        </Link>
+
         <div
           className="wrapper"
           style={{

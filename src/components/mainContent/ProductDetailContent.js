@@ -66,31 +66,31 @@ const ProductDetailContent = () => {
                   <ul>
                     <li>
                       <AiOutlineCheck className="icon" />
-                      <a>Cam Kết Hàng Chính Hãng.</a>
+                      <span>Cam Kết Hàng Chính Hãng.</span>
                     </li>
                     <li>
                       <AiOutlineCheck className="icon" />
-                      <a>Được Thanh Toán Khi Nhận Hàng.</a>
+                      <span>Được Thanh Toán Khi Nhận Hàng.</span>
                     </li>
                     <li>
                       <AiOutlineCheck className="icon" />
-                      <a>Miễn Phí Kiểm Tra Hàng.</a>
+                      <span>Miễn Phí Kiểm Tra Hàng.</span>
                     </li>
                     <li>
                       <AiOutlineCheck className="icon" />
-                      <a>Miễn Phí Đổi Trả Sản Phẩm Lỗi Trong 07 Ngày.</a>
+                      <span>Miễn Phí Đổi Trả Sản Phẩm Lỗi Trong 07 Ngày.</span>
                     </li>
                     <li>
                       <AiOutlineCheck className="icon" />
-                      <a>Miễn Phí Ship Cho Đơn Hàng Từ 700,000đ.</a>
+                      <span>Miễn Phí Ship Cho Đơn Hàng Từ 700,000đ.</span>
                     </li>
                     <li>
                       <AiOutlineCheck className="icon" />
-                      <a>Nhận Nhiều Ưu Đãi Hấp Dẫn Khi Kích Hoạt VIP.</a>
+                      <span>Nhận Nhiều Ưu Đãi Hấp Dẫn Khi Kích Hoạt VIP.</span>
                     </li>
                     <li>
                       <AiOutlineCheck className="icon" />
-                      <a>Tích Điểm Và Đổi Quà Yêu Thích.</a>
+                      <span>Tích Điểm Và Đổi Quà Yêu Thích.</span>
                     </li>
                   </ul>
                 </div>

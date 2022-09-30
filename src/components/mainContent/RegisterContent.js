@@ -1,4 +1,4 @@
-import { FaFacebook, FaDollarSign } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 import { AiFillGooglePlusCircle } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import "./RegisterContent.scss";
