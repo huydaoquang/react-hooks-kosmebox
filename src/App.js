@@ -13,7 +13,11 @@ import ProductDetailContent4 from "./components/mainContent/ProductDetailContent
 import ProductDetailContent5 from "./components/mainContent/ProductDetailContent5";
 import LinkContent from "./components/mainContent/LinkContent";
 import YoutubeSearch from "./components/mainContent/YoutubeSearch";
+import { SearchData } from "./components/mainContent/SearchData";
+import { SearchProduct } from "./components/mainContent/SearchProduct";
+
 function App() {
+  // console.log(Data);
   return (
     <Router>
       <div className="App">
@@ -56,8 +60,10 @@ function App() {
             <ProductDetailContent5></ProductDetailContent5>
             <Footer></Footer>
           </Route>
-          <Route path="/YoutubeSearch">
+          <Route path="/Search">
             <YoutubeSearch></YoutubeSearch>
+            {/* <SearchData></SearchData> */}
+            {/* <SearchProduct></SearchProduct> */}
           </Route>
         </Switch>
       </div>

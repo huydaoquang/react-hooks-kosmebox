@@ -14,7 +14,7 @@ a {
   content: "";
   clear: both;
   background: #f3f0f0;
-  padding: 20px;
+  // padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,6 +83,7 @@ a {
         background: #f3f0f0;
         display: grid;
         grid-template-columns: auto auto auto auto auto;
+        // grid-template-columns: repeat(5, minmax(200px, 1fr));
         grid-template-rows: auto;
         grid-gap: 28px;
         .card {
@@ -229,7 +230,12 @@ a {
 }
 @media screen and (max-width: 739px) and (min-width: 320px) {
   .main-content {
+    padding: 0;
     .row {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 40px auto 1.8fr 1fr 1.1fr;
+      grid-gap: 0.5rem;
       .content {
         display: grid;
         grid-template-columns: auto;
