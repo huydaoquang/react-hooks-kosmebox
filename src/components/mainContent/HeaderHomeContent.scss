@@ -1,0 +1,60 @@
+.row-header {
+  width: 1300px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 100px auto;
+  .content-header {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    .block {
+      display: flex;
+      gap: 10px;
+    }
+    h3 {
+      text-transform: uppercase;
+      color: #ed145b;
+    }
+    span {
+      text-transform: capitalize;
+    }
+  }
+  .wrapper {
+    background: #fff;
+    width: 100%;
+    .content {
+      width: 40%;
+      line-height: 40px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-template-rows: 40px;
+      span {
+        color: #ed145b;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 18px;
+      }
+      button {
+        border: none;
+        width: 120px;
+        height: 40px;
+        background-image: linear-gradient(180deg, #ed145b, #bb0fca);
+        text-transform: capitalize;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        font-style: italic;
+        transition: 0.5s ease;
+        cursor: pointer;
+        &:hover {
+          background-image: linear-gradient(180deg, red, yellow);
+          box-shadow: 18px 0 15px 0 rgba(0, 0, 0, 0.3),
+            -15px 0 15px 0 rgba(0, 0, 0, 0.2);
+          font-style: normal;
+        }
+      }
+    }
+  }
+}

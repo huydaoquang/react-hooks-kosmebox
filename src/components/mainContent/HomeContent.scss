@@ -13,7 +13,7 @@ a {
 .main-content {
   content: "";
   clear: both;
-  background: #f3f0f0;
+  background: #f7f7f7;
   // padding: 20px;
   display: flex;
   align-items: center;
@@ -21,7 +21,7 @@ a {
   .row {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 40px 1fr 1.8fr 1fr 1.1fr;
+    grid-template-rows: 1.8fr 1fr 1.2fr;
     grid-gap: 0.5rem;
     text-align: center;
     .content {

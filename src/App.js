@@ -15,6 +15,8 @@ import LinkContent from "./components/mainContent/LinkContent";
 import YoutubeSearch from "./components/mainContent/YoutubeSearch";
 import { SearchData } from "./components/mainContent/SearchData";
 import { SearchProduct } from "./components/mainContent/SearchProduct";
+import Test from "./components/mainContent/test";
+import Navbar from "./components/mainContent/navbar";
 
 function App() {
   // console.log(Data);
@@ -22,45 +24,55 @@ function App() {
     <Router>
       <div className="App">
         <Header></Header>
-        <Nav></Nav>
+        {/* <Navbar></Navbar> */}
         <Switch>
           <Route exact path="/">
-            <HomeContent></HomeContent>
+            {/* <HomeContent></HomeContent> */}
+            <Test></Test>
             <Footer></Footer>
           </Route>
           <Route path="/Register">
+            <Nav></Nav>
             <RegisterContent></RegisterContent>
             <Footer></Footer>
           </Route>
           <Route path="/Login">
+            <Nav></Nav>
             <LoginContent></LoginContent>
             <Footer></Footer>
           </Route>
           <Route path="/Link">
+            <Nav></Nav>
             <LinkContent></LinkContent>
             <Footer></Footer>
           </Route>
           <Route path="/Mat-na-innisfree-capsule-recipe-pack-10ml">
+            <Nav></Nav>
             <ProductDetailContent2></ProductDetailContent2>
             <Footer></Footer>
           </Route>
           <Route path="/Sn-sale-che-khuyet-diem">
+            <Nav></Nav>
             <ProductDetailContent3></ProductDetailContent3>
             <Footer></Footer>
           </Route>
           <Route path="/sua-rua-mat-soonsiki-clean-sebum-clay-pack-to-form-120ml">
+            <Nav></Nav>
             <ProductDetailContent></ProductDetailContent>
             <Footer></Footer>
           </Route>
           <Route path="/che-khuyet-diem-moi-mat-va-mat-the-face-shop-concealer-dual-veil-trolls-8-1g">
+            <Nav></Nav>
             <ProductDetailContent4></ProductDetailContent4>
             <Footer></Footer>
           </Route>
           <Route path="/co-to-mau-may-etude-house-color-my-brows-cara">
+            <Nav></Nav>
             <ProductDetailContent5></ProductDetailContent5>
             <Footer></Footer>
           </Route>
           <Route path="/Search">
+            <Nav></Nav>
             <YoutubeSearch></YoutubeSearch>
             {/* <SearchData></SearchData> */}
             {/* <SearchProduct></SearchProduct> */}

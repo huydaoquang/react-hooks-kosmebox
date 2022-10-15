@@ -127,14 +127,14 @@ const Header = () => {
             </Link>
           </span>
         </div>
-        <AiOutlineShoppingCart
+        {/* <AiOutlineShoppingCart
           style={{
             width: "40px",
             height: "40px",
             color: "#ed145b",
             margin: "50px 0 0 100px",
           }}
-        />
+        /> */}
       </div>
     </header>
   );

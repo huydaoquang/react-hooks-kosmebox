@@ -10,80 +10,13 @@ import {
 } from "react-icons/ai";
 import { BsCircleFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import Test from "./test";
 const HomeContent = () => {
   return (
     <>
-      <div className="banner">
-        <img src="./images/01.jpg" alt="" />
-      </div>
       <div className="main-content">
         <div className="row">
-          <div className="content">
-            <div className="left">
-              <IoDiamond
-                style={{
-                  display: "block",
-                  width: "50px",
-                  height: "50px",
-                  padding: "10px",
-                  marginBottom: "-50px",
-                  color: "#ed145b",
-                  borderRadius: "50%",
-                  border: "1px solid #ed145b",
-                }}
-              />
-              <h3>tích lũy điểm &amp; vip</h3>
-              <span>tích lũy điểm &amp; kích hoạt VIP thêm các ưu đãi</span>
-            </div>
-            <div className="center">
-              <AiOutlineGift
-                style={{
-                  display: "block",
-                  width: "50px",
-                  height: "50px",
-                  padding: "10px",
-                  marginBottom: "-50px",
-                  color: "#ed145b",
-                  borderRadius: "50%",
-                  border: "1px solid #ed145b",
-                }}
-              />
-              <h3>tích điểm đổi quà</h3>
-              <span>áp dụng từ VIP2 trở lên</span>
-            </div>
-            <div className="right">
-              <AiOutlineLike
-                style={{
-                  display: "block",
-                  width: "50px",
-                  height: "50px",
-                  padding: "10px",
-                  marginBottom: "-50px",
-                  color: "#ed145b",
-                  borderRadius: "50%",
-                  border: "1px solid #ed145b",
-                }}
-              />
-              <h3>hàng chính hãng</h3>
-              <span>đảm bảo hàng thật chính hãng</span>
-            </div>
-          </div>
-          <div className="wrapper">
-            <div className="content">
-              <span>
-                <AiTwotoneLike
-                  style={{
-                    width: "25px",
-                    height: "25px",
-                    marginBottom: "-4px",
-                  }}
-                />
-              </span>
-              <span>đảm bảo thật chính hãng</span>
-              <Link to={`/Link`}>xem thêm</Link>
-            </div>
-          </div>
-          <div className="container">
+          {/* <div className="container">
             <h1>ĐỒNG GIÁ 9K - 79K</h1>
             <div className="wrapper">
               <Link to={`/Mat-na-innisfree-capsule-recipe-pack-10ml`}>
@@ -203,7 +136,7 @@ const HomeContent = () => {
                 <button>xem thêm</button>
               </Link>
             </div>
-          </div>
+          </div> */}
           <div className="container block">
             <h1>
               <AiFillFire style={{ color: "gold" }} />
