@@ -1,14 +1,18 @@
 import React, { useState, useEffect } from "react";
 import "../styles/cart.scss";
 import { Link } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Cart = ({ cart, setCart, handleChange }) => {
   const [price, setPrice] = useState(0);
+  const success = () => toast.success("Thanh Toán Thành Công");
 
   const handleRemove = (id) => {
     const arr = cart.filter((item) => item.id !== id);
     setCart(arr);
     handlePrice();
+    toast.success("Xóa Thành Công");
   };
 
   const handlePrice = () => {
@@ -47,19 +51,28 @@ const Cart = ({ cart, setCart, handleChange }) => {
             </div>
             <div>
               <span>{item.price} đ</span>
-              <button onClick={() => handleRemove(item.id)}>Remove</button>
+              <button onClick={() => handleRemove(item.id)}>Xóa</button>
             </div>
           </div>
         ))}
         <div className="total">
-          <span> Tổng cộng: </span>
-          <span>Thành tiền: {price} đ</span>
+          <div>
+            <span>Tổng Cộng:</span>
+            <span>{price} đ</span>
+          </div>
+          <div>
+            <span>Thành Tiền:</span>
+            <span>{price} đ</span>
+          </div>
         </div>
         <div className="container-bottom">
-          <Link to={"/Sn-sale-che-khuyet-diem"}>
+          <Link to={"/Link"}>
             <button className="btn-left">TIẾP TỤC MUA HÀNG</button>
           </Link>
-          <button className="btn-right">THANH TOÁN</button>
+          <button className="btn-right" onClick={success}>
+            THANH TOÁN
+            <ToastContainer />
+          </button>
         </div>
       </article>
     </div>

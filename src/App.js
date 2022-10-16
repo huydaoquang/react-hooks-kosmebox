@@ -3,7 +3,7 @@ import "./App.scss";
 import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
 import Footer from "./components/footer/Footer";
-import HomeContent from "./components/mainContent/HomeContent";
+// import HomeContent from "./components/mainContent/HomeContent";
 import LoginContent from "./components/mainContent/LoginContent";
 import RegisterContent from "./components/mainContent/RegisterContent";
 import ProductDetailContent from "./components/mainContent/ProductDetailContent";
@@ -13,10 +13,10 @@ import ProductDetailContent4 from "./components/mainContent/ProductDetailContent
 import ProductDetailContent5 from "./components/mainContent/ProductDetailContent5";
 import LinkContent from "./components/mainContent/LinkContent";
 import YoutubeSearch from "./components/mainContent/YoutubeSearch";
-import { SearchData } from "./components/mainContent/SearchData";
-import { SearchProduct } from "./components/mainContent/SearchProduct";
-import Test from "./components/mainContent/test";
-import Navbar from "./components/mainContent/navbar";
+import Home from "./components/mainContent/Home";
+// import { SearchData } from "./components/mainContent/SearchData";
+// import { SearchProduct } from "./components/mainContent/SearchProduct";
+// import Navbar from "./components/mainContent/navbar";
 
 function App() {
   // console.log(Data);
@@ -28,7 +28,7 @@ function App() {
         <Switch>
           <Route exact path="/">
             {/* <HomeContent></HomeContent> */}
-            <Test></Test>
+            <Home></Home>
             <Footer></Footer>
           </Route>
           <Route path="/Register">

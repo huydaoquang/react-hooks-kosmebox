@@ -1,7 +1,7 @@
 import "./Header.scss";
 import { FaHeart, FaDollarSign } from "react-icons/fa";
 import { HiUser, HiUserAdd, HiSearch } from "react-icons/hi";
-import { AiOutlineShoppingCart } from "react-icons/ai";
+// import { AiOutlineShoppingCart } from "react-icons/ai";
 import { BsBoxArrowInRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 const Header = () => {

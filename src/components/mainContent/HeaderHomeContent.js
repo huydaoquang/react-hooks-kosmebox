@@ -1,12 +1,6 @@
 import React from "react";
 import { IoDiamond } from "react-icons/io5";
-import {
-  AiOutlineGift,
-  AiOutlineLike,
-  AiTwotoneLike,
-  AiFillFire,
-  AiOutlineStar,
-} from "react-icons/ai";
+import { AiOutlineGift, AiOutlineLike, AiTwotoneLike } from "react-icons/ai";
 import "./HeaderHomeContent.scss";
 
 const HeaderHomeContent = () => {

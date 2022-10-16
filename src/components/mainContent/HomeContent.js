@@ -1,16 +1,9 @@
 import "./HomeContent.scss";
-import { IoDiamond } from "react-icons/io5";
 import { RiContactsBook2Fill } from "react-icons/ri";
-import {
-  AiOutlineGift,
-  AiOutlineLike,
-  AiTwotoneLike,
-  AiFillFire,
-  AiOutlineStar,
-} from "react-icons/ai";
+import { AiFillFire, AiOutlineStar } from "react-icons/ai";
 import { BsCircleFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import Test from "./test";
+
 const HomeContent = () => {
   return (
     <>
