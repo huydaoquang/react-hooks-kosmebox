@@ -24,7 +24,7 @@
 
   #customers tr {
     display: grid;
-    grid-template-columns: 0.5fr 2fr 0.8fr 1fr;
+    grid-template-columns: 0.5fr 2fr 0.8fr 1fr 0.2fr;
   }
   #customers tr:hover {
     background-color: #ddd;
@@ -36,6 +36,9 @@
     text-align: left;
     background-color: #5f6874;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   article {
     width: 90%;
@@ -49,21 +52,40 @@
   .cart_img {
     display: flex;
     align-items: center;
-    width: 600px;
   }
 
   .cart_img p {
+    width: 100%;
     font-weight: bold;
+    text-align: center;
     margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .cart_box {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+    display: grid;
+    grid-template-columns: 2.7fr 0.9fr 1.3fr;
     margin-top: 20px;
-    border-bottom: 2px solid #eb175d;
     padding-bottom: 5px;
+    border-bottom: 2px solid #eb175d;
+    .container-btn-number {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      span {
+        margin-left: 7rem;
+      }
+    }
   }
 
   .cart_box div:nth-child(2) button {

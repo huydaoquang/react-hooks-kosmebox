@@ -34,6 +34,7 @@ const Cart = ({ cart, setCart, handleChange }) => {
             <th>Tên sản phẩm</th>
             <th>Số lượng</th>
             <th>Đơn Giá</th>
+            <th>Xóa</th>
           </tr>
         </thead>
       </table>
@@ -44,12 +45,12 @@ const Cart = ({ cart, setCart, handleChange }) => {
               <img src={item.img} alt="" />
               <p>{item.title}</p>
             </div>
-            <div>
+            <div className="container-btn-number">
               <button onClick={() => handleChange(item, 1)}>+</button>
               <button>{item.amount}</button>
               <button onClick={() => handleChange(item, -1)}>-</button>
             </div>
-            <div>
+            <div className="wrapper">
               <span>{item.price} đ</span>
               <button onClick={() => handleRemove(item.id)}>Xóa</button>
             </div>
