@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from "react";
 import "../styles/cart.scss";
 import { Link } from "react-router-dom";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import { toast } from "react-toastify";
 
 const Cart = ({ cart, setCart, handleChange }) => {
   const [price, setPrice] = useState(0);
-  const success = () => toast.success("Thanh Toán Thành Công");
+  const successful = () => {
+    toast.success("Thanh Toán Thành Công");
+    return;
+  };
 
   const handleRemove = (id) => {
     const arr = cart.filter((item) => item.id !== id);
@@ -70,9 +72,8 @@ const Cart = ({ cart, setCart, handleChange }) => {
           <Link to={"/Link"}>
             <button className="btn-left">TIẾP TỤC MUA HÀNG</button>
           </Link>
-          <button className="btn-right" onClick={success}>
+          <button className="btn-right" onClick={successful}>
             THANH TOÁN
-            <ToastContainer />
           </button>
         </div>
       </article>

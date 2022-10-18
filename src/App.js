@@ -19,7 +19,8 @@ import Home from "./components/mainContent/Home";
 // import Navbar from "./components/mainContent/navbar";
 import ClipLoader from "react-spinners/ClipLoader";
 import { useState, useEffect } from "react";
-
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 function App() {
   const [loading, setLoading] = useState(false);
 
@@ -27,7 +28,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 8000);
+    }, 1000);
   }, []);
   return (
     <Router>
@@ -43,6 +44,18 @@ function App() {
               <>
                 <Header></Header>
                 <Home></Home>
+                <ToastContainer
+                  position="top-left"
+                  autoClose={5000}
+                  hideProgressBar={false}
+                  newestOnTop={false}
+                  closeOnClick
+                  rtl={false}
+                  pauseOnFocusLoss
+                  draggable
+                  pauseOnHover
+                  theme="light"
+                />
                 <Footer></Footer>
               </>
             )}
