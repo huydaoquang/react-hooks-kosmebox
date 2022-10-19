@@ -5,6 +5,23 @@
 .wrapper-cart {
   min-height: 68vh;
 
+  .wrapper-empty {
+    width: 90%;
+    margin: 20px auto 0;
+    h3 {
+      padding-bottom: 5px;
+      border-bottom: 1px solid #ddd;
+    }
+    span {
+      margin: 20px 0;
+      display: block;
+    }
+    .container-bottom.empty {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+
   #customers {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;

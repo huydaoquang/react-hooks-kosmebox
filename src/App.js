@@ -21,6 +21,7 @@ import ClipLoader from "react-spinners/ClipLoader";
 import { useState, useEffect } from "react";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import HomePage from "./pages/Home";
 function App() {
   const [loading, setLoading] = useState(false);
 
@@ -46,7 +47,7 @@ function App() {
                 <Home></Home>
                 <ToastContainer
                   position="top-left"
-                  autoClose={5000}
+                  autoClose={3000}
                   hideProgressBar={false}
                   newestOnTop={false}
                   closeOnClick
@@ -109,9 +110,10 @@ function App() {
             <Footer></Footer>
           </Route>
           <Route path="/Search">
-            <Header></Header>
-            <Nav></Nav>
-            <YoutubeSearch></YoutubeSearch>
+            {/* <Header></Header>
+            <Nav></Nav> */}
+            <HomePage></HomePage>
+            {/* <YoutubeSearch></YoutubeSearch> */}
             {/* <SearchData></SearchData> */}
             {/* <SearchProduct></SearchProduct> */}
           </Route>
