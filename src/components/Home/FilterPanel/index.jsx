@@ -25,16 +25,6 @@ const FilterPanel = ({
       />
     </div>
     <div className="input-group">
-      <p className="label">Khu vực</p>
-      {cuisines.map((cuisine) => (
-        <CheckboxProton
-          key={cuisine.id}
-          cuisine={cuisine}
-          changeChecked={changeChecked}
-        />
-      ))}
-    </div>
-    <div className="input-group">
       <p className="label-range">Mức giá</p>
       <SliderProton value={selectedPrice} changePrice={changePrice} />
     </div>

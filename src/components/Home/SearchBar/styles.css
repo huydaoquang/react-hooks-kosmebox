@@ -1,11 +1,11 @@
 .searchBar-wrap {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+  border-bottom: 1px solid #ed145b;
   padding: 1.5rem 1rem;
 }
 .searchBar-icon {
-  color: rgba(0, 0, 0, 0.26);
+  color: #ed145b;
   margin-right: 2rem;
   margin-left: 1rem;
 }
@@ -15,6 +15,7 @@
   outline: none;
   border: none;
   width: 100%;
+  color: #ed145b;
 }
 
 .searchBar-wrap input::placeholder {

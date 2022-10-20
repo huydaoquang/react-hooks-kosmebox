@@ -22,6 +22,11 @@ import { useState, useEffect } from "react";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import HomePage from "./pages/Home";
+import CardLoading from "./components/loading/CardLoading";
+import BannerLoading from "./components/loading/BannerLoading";
+import NavLoading from "./components/loading/NavLoading";
+import HeaderLoading from "./components/loading/HeaderLoading";
+import FooterLoading from "./components/loading/FooterLoading";
 function App() {
   const [loading, setLoading] = useState(false);
 
@@ -29,7 +34,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, 10000);
   }, []);
   return (
     <Router>
@@ -37,9 +42,18 @@ function App() {
         <Switch>
           <Route exact path="/">
             {loading ? (
-              <div className="loading">
-                <ClipLoader color={"#d636ad"} loading={loading} size={100} />
-                <span>Loading Data...</span>
+              <div className="grid-loading">
+                <HeaderLoading></HeaderLoading>
+                <NavLoading></NavLoading>
+                <BannerLoading></BannerLoading>
+                <div className="loading-cards">
+                  {Array(25)
+                    .fill(0)
+                    .map((item, index) => (
+                      <CardLoading key={index}></CardLoading>
+                    ))}
+                </div>
+                <FooterLoading></FooterLoading>
               </div>
             ) : (
               <>

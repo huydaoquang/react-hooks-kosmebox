@@ -1,0 +1,15 @@
+.container-card-loading {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  height: 400px;
+  text-align: center;
+  // box-shadow: 18px 0 15px 0 rgba(0, 0, 0, 0.3),
+  //   -15px 0 15px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  img {
+    width: 100%;
+  }
+}
