@@ -25,17 +25,28 @@ const ProductDetailContent2 = () => {
             <div className="container-wrapper">
               <div className="wrapper-left">
                 <div className="wrapper-item">
-                  <div className="icon">
+                  {/* <div className="icon">
                     <AiOutlineStar />
                     <AiOutlineStar />
                     <AiOutlineStar />
                     <AiOutlineStar />
                     <AiOutlineStar />
-                  </div>
-                  <span>
+                  </div> */}
+                  {/* <span>
                     0 đánh giá <span style={{ color: "#000" }}>/</span> Viết
                     đánh giá
-                  </span>
+                  </span> */}
+                  <div>
+                    <div
+                      class="fb-like"
+                      data-href="https://github.com/huydaoquang/react-hooks-kosmebox"
+                      data-width=""
+                      data-layout="standard"
+                      data-action="like"
+                      data-size="small"
+                      data-share="true"
+                    ></div>
+                  </div>
                 </div>
                 <div className="wrapper-money">
                   <h3 className="line-through">60,000 đ</h3>
@@ -189,8 +200,16 @@ const ProductDetailContent2 = () => {
               </p>
             </div>
             <h4>ĐÁNH GIÁ - BÌNH LUẬN</h4>
+            <div style={{ background: "#fff" }}>
+              <div
+                class="fb-comments"
+                data-href="https://github.com/huydaoquang/react-hooks-kosmebox"
+                data-width="960"
+                data-numposts="5"
+              ></div>
+            </div>
             <div className="comment">
-              <span>Không có đánh giá cho sản phẩm này.</span>
+              {/* <span>Không có đánh giá cho sản phẩm này.</span>
               <span className="title">Viết đánh giá</span>
               <form action="">
                 <label htmlFor="">Tên bạn:</label>
@@ -199,7 +218,7 @@ const ProductDetailContent2 = () => {
                 <input type="text" />
                 <label htmlFor="">Đánh giá của bạn:</label>
                 <textarea name="" id="" cols="30" rows="10"></textarea>
-              </form>
+              </form> */}
               <span style={{ color: "red" }}>
                 Lưu ý: Đánh giá của bạn sẽ được duyệt sau 24h. Điểm thưởng tích
                 luỹ sẽ được tính ngay khi đánh giá của bạn được duyệt.
